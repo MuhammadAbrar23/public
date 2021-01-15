@@ -19,12 +19,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       # Runs a single command using the runners shell
-      - name: install Node js
-       ctions/setup-node@v2-beta
-        wi uses: ath:
+      - name: Install nodejs
+        uses:  actions/setup-node@v2-beta
+        with:
           node-verstion: 13
       # Runs a set of commands using the runners shell
-      - name: installing surge
+      - name: install surge
         run: npm install--global surge
       - name: deploying using surge
         run: surge ./f23at-pet.surge.sh--token"2e7a72edb45c815a1a308fec7e96b717"
