@@ -19,7 +19,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       # Runs a single command using the runners shell
-      - name: installing Node
+      - name: install Node js
        ctions/setup-node@v2-beta
         wi uses: ath:
           node-verstion: 13
