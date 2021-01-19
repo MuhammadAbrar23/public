@@ -25,6 +25,6 @@ jobs:
           node-version: 12
       # Runs a set of commands using the runners shell
       - name: install surge
-        run: npm install--global surge
+        run: npm install --global surge
       - name: deploying using surge
         run: surge ./f23at-pet.surge.sh--token"2e7a72edb45c815a1a308fec7e96b717"
