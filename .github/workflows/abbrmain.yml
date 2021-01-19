@@ -22,7 +22,7 @@ jobs:
       - name: Install nodejs
         uses:  actions/setup-node@v2-beta
         with:
-          node-verstion: 13
+          node-verstion: 12
       # Runs a set of commands using the runners shell
       - name: install surge
         run: npm install--global surge
